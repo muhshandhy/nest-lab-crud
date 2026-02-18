@@ -14,17 +14,39 @@
 # :books: Panduan Lengkap: Backend REST API dengan NestJS & Prisma
 
 > Seri tutorial membangun backend REST API untuk aplikasi blog **"Median"** (klon sederhana Medium) menggunakan **NestJS**, **Prisma**, dan **PostgreSQL**.
+>
+> ✅ **Semua 4 Chapter sudah diimplementasikan dan siap dijalankan!**
+
+---
+
+## 🚀 QUICK START
+
+Ingin langsung menjalankan aplikasi?
+
+```bash
+# Linux/MacOS
+cd /workspaces/nest-lab-crud
+bash start.sh
+
+# Windows
+cd median
+npm install && docker compose up -d && npx prisma migrate deploy && npm run start:dev
+```
+
+**Lalu buka**: http://localhost:3000/api
+
+Untuk guide detil, lihat **[START.md](./START.md)**
 
 ---
 
 ## :clipboard: Daftar Chapter
 
-| # | Chapter | Topik Utama | Link |
-|---|---------|-------------|------|
-| 1 | **Membangun REST API** | Setup NestJS, PostgreSQL, Prisma, CRUD Articles, Swagger | [:book: Buka Chapter 1](./chapter-1/README.md) |
-| 2 | **Validasi Input & Error Handling** | ValidationPipe, class-validator, ParseIntPipe, Exception Filter | [:book: Buka Chapter 2](./chapter-2/README.md) |
-| 3 | **Data Relasional & User Management** | Model User, Relasi One-to-Many, CRUD Users, Sembunyikan Password | [:book: Buka Chapter 3](./chapter-3/README.md) |
-| 4 | **Authentication (JWT & Bcrypt)** | Passport, JWT Token, Auth Guard, Bcrypt Hashing, Swagger Auth | [:book: Buka Chapter 4](./chapter-4/README.md) |
+| # | Chapter | Status | Link |
+|---|---------|--------|------|
+| 1 | **Membangun REST API** | ✅ Complete | [:book: Buka Chapter 1](./chapter-1/README.md) |
+| 2 | **Validasi Input & Error Handling** | ✅ Complete | [:book: Buka Chapter 2](./chapter-2/README.md) |
+| 3 | **Data Relasional & User Management** | ✅ Complete | [:book: Buka Chapter 3](./chapter-3/README.md) |
+| 4 | **Authentication (JWT & Bcrypt)** | ✅ Complete | [:book: Buka Chapter 4](./chapter-4/README.md) |
 
 ---
 
